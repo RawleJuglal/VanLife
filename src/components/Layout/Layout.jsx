@@ -1,18 +1,17 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
+import Header from '../Header/Header'
+import Footer from '../Footer/Footer'
 
 export default function Layout(){
     return(
-        <>
-            <header>
-                <Link to="/">#VANLIFE</Link>
-                <nav>
-                    <Link to="about">About</Link>
-                    <Link to="vans">Vans</Link>
-                </nav>
-            </header>
-            <Outlet />
-        </>
+        <div className="site-wrapper">
+            <Header />
+            <main>
+                <Outlet />
+            </main>
+            <Footer />
+        </div>
         
     )
 }
