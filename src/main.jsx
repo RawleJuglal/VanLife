@@ -4,11 +4,14 @@ import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route, L
 import Layout from './components/Layout/Layout'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
+import Vans from './pages/Vans/Vans'
+import "./server"
 import './index.css'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<Layout />}>
     <Route path="/about" element={<About />}/>
+    <Route path="vans" element={<Vans />}/>
     <Route index element={<Home />}/>
   </Route>
 ))

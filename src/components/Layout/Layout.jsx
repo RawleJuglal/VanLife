@@ -7,7 +7,8 @@ export default function Layout(){
             <header>
                 <Link to="/">#VANLIFE</Link>
                 <nav>
-                    <Link to="/about">About</Link>
+                    <Link to="about">About</Link>
+                    <Link to="vans">Vans</Link>
                 </nav>
             </header>
             <Outlet />
