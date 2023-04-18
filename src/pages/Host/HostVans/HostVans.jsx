@@ -1,14 +1,13 @@
 import React from "react"
-import { Link } from "react-router-dom"
+import { Link, useLoaderData } from "react-router-dom"
+import { getHostVans } from "../../../hooks/api"
 
-export default function HostVans() {
-    const [vans, setVans] = React.useState([])
+export function loader(){
+    return getHostVans()
+}
 
-    React.useEffect(() => {
-        fetch("/api/host/vans")
-            .then(res => res.json())
-            .then(data => setVans(data.vans))
-    }, [])
+export function HostVans() {
+    const vans = useLoaderData()
 
     const hostVansEls = vans.map(van => (
         <Link
