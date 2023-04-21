@@ -17,6 +17,7 @@ import HostVanPhotos from './pages/Host/HostVanPhotos/HostVanPhotos'
 import HostVanInfo from './pages/Host/HostVanInfo/HostVanInfo'
 import Reviews from './pages/Host/Reviews/Reviews'
 import NotFound from './pages/NotFound/Notfound'
+import Login from './pages/Login/Login'
 import "./server"
 import './index.css'
 
@@ -33,6 +34,7 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route path="reviews" element={<Reviews />} />
       <Route index element={<Dashboard />} />
     </Route>
+    <Route path="login" element={<Login />} />
     <Route path="about" element={<About />}/>
     <Route path="vans" element={<Vans />} loader={vansLoader}/>
     <Route path="vans/:id" element={<VanDetail />} loader={({ params }) => vanLoader(params.id)}/>
