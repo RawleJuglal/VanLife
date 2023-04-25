@@ -23,7 +23,7 @@ import './index.css'
 import { requireAuth } from './utils'
 
 const router = createBrowserRouter(createRoutesFromElements(
-  <Route path="/" element={<Layout />} errorElement={<Error />}>
+  <Route path="/vanLife" element={<Layout />} errorElement={<Error />}>
     <Route path="host" element={<HostLayout />}>
       <Route 
         index 
