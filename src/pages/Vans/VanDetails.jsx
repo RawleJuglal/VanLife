@@ -1,9 +1,9 @@
 import React,{ useState, useEffect, Suspense} from "react"
 import { Link, useParams, useLocation, useLoaderData, defer, Await } from "react-router-dom"
-import { getVans } from "../../hooks/api"
+import { getVan } from "../../hooks/api"
 
 export function loader(params) {
-    return defer({vans: getVans(params.id)})
+    return defer({vans: getVan(params.id)})
 }
 
 export function VanDetail() {
