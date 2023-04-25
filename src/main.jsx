@@ -8,7 +8,7 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import { Vans, loader as vansLoader } from './pages/Vans/Vans'
 import { VanDetail, loader as vanLoader } from './pages/Vans/VanDetails'
-import Dashboard from './pages/Host/Dashboard/Dashboard'
+import {Dashboard, loader as dashboardLoader } from './pages/Host/Dashboard/Dashboard'
 import Income from './pages/Host/Income/Income'
 import { HostVans, loader as hostVansLoader } from './pages/Host/HostVans/HostVans'
 import { HostVansDetail, loader as hostVanLoader } from './pages/Host/HostVans/HostVansDetail'
@@ -28,10 +28,7 @@ const router = createBrowserRouter(createRoutesFromElements(
       <Route 
         index 
         element={<Dashboard />}
-        loader={async ({request})=> {
-          await requireAuth(request)
-          return null
-        }} 
+        loader={dashboardLoader} 
       /> 
       <Route 
         path="income" 
