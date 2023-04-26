@@ -18,7 +18,7 @@ To see this project in development, run **npm run dev**. To see it in production
 ## Contributions
 Anyone is welcome to submit improvements or bug requests. However, please note that this project will be irregularly maintained.
 
-##License
+## License
 This project is licensed under a **[Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/)**.
 
 This means that you are free to share and adapt the work for non-commercial purposes, as long as you give appropriate credit and indicate if changes were made. If you would like to use this project for commercial purposes, please contact me for permission.
