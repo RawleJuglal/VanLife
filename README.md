@@ -4,8 +4,8 @@ Welcome to Happy Glampers, INC! This is a glamping tent rental website where use
 ## Installation
 To install this project on your machine, you will need to 
 1. fork the code to your own GitHub repository and then 
-2.pull from your own repo to your preferred Integrated Development Environment (IDE). 
-3.Install the following dependencies by running **npm install**:
+2. pull from your own repo to your preferred Integrated Development Environment (IDE). 
+3. Install the following dependencies by running **npm install**:
 
 - React
 - React-Dom
