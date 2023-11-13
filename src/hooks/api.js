@@ -6,12 +6,12 @@ import { getFirestore, collection, doc, getDocs, getDoc, query, where } from "fi
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAmhLZwfbFVebqqTUXYmVE-uUe-Zr6GWLI",
-  authDomain: "vanlife-2c95e.firebaseapp.com",
-  projectId: "vanlife-2c95e",
-  storageBucket: "vanlife-2c95e.appspot.com",
-  messagingSenderId: "379955907367",
-  appId: "1:379955907367:web:b258f0dbbe9ac3079ff702"
+    apiKey: "AIzaSyAmhLZwfbFVebqqTUXYmVE-uUe-Zr6GWLI",
+    authDomain: "vanlife-2c95e.firebaseapp.com",
+    projectId: "vanlife-2c95e",
+    storageBucket: "vanlife-2c95e.appspot.com",
+    messagingSenderId: "379955907367",
+    appId: "1:379955907367:web:b258f0dbbe9ac3079ff702"
 };
 
 // Initialize Firebase

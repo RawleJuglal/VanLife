@@ -50,7 +50,7 @@ createServer({
             imageUrl: "https://assets.scrimba.com/advanced-react/react-router/green-wonder.png", 
             type: "rugged", 
             hostId: "123" })
-        server.create("user", { id: "123", email: "b@b.com", password: "p123", name: "Bob" })
+        server.create("user", { id: "123", email: "b@b.com", password: "p123", name: "Bob" },{id:"123", email:'rawledjuglal@gmail.com',password:'R3l3ntl3$$van', name:'Rawle'})
     },
 
     routes() {
